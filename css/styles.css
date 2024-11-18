@@ -8,10 +8,32 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  width: 1158px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
 }
 
+.container {
+  width: 1158px;
+  /* margin: 0 auto; */
+  padding: 0 156px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 40px;
+}
 .header-nav .header-logo {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -41,6 +63,13 @@ body {
 
 .header-address {
   font-style: normal;
+}
+
+.header-address ul {
+  display: flex;
+  padding-left: 500px; /*500px*/
+  margin-top: -25px;
+  gap: 40px;
 }
 
 .header-contacts {
@@ -86,6 +115,15 @@ body {
 a,
 button {
   cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .discription-title {
