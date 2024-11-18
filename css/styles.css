@@ -239,18 +239,34 @@ a {
   color: #434455;
 }
 
-.our-portfolio ul {
-  display: flex;
-  gap: 40px;
+.our-portfolio {
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list li {
+  width: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+}
+
+.portfolio-list li:last-child {
+  margin-right: 0;
 }
 
 .portfolio-content {
@@ -275,7 +291,7 @@ a {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
