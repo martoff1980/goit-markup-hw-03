@@ -21,8 +21,12 @@ ul {
 
 .container {
   width: 1158px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 0 156px;
+}
+
+.header-panel {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -85,10 +89,12 @@ ul {
 }
 
 .hero-section {
+  padding: 188px 0 188px;
   background-color: #2e2f42;
 }
 
 .hero-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -97,6 +103,12 @@ ul {
 }
 
 .hero-button {
+  display: block;
+  margin: 10px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -126,7 +138,33 @@ a {
   text-decoration: none;
 }
 
+.discription {
+  padding: 120px 0 120px;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+
+.discription-list {
+  display: flex;
+  gap: 24px;
+}
+
+.discription-list li {
+  margin-right: 24px;
+}
+
+.discription-list li:last-child {
+  margin-right: 0;
+}
+
+.discription-element {
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .discription-title {
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -143,6 +181,11 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
+}
+
+.our-team ul {
+  display: flex;
+  gap: 40px;
 }
 
 .banner-team {
@@ -172,6 +215,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.our-portfolio ul {
+  display: flex;
+  gap: 40px;
 }
 
 .portfolio-title {
