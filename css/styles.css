@@ -29,10 +29,14 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-nav {
+.header-container {
+  display: flex;
+}
+
+/* .header-nav {
   display: flex;
   gap: 40px;
-}
+} */
 
 .header-nav ul {
   display: flex;
@@ -142,7 +146,15 @@ a {
   padding: 120px 0 120px;
 }
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .discription-list {
@@ -180,21 +192,36 @@ a {
 }
 
 .our-team {
+  padding: 120px 0 120px;
   background-color: #f4f4fd;
 }
 
-.our-team ul {
-  display: flex;
-  gap: 40px;
-}
-
 .banner-team {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.persons-list {
+  display: flex;
+  gap: 24px;
+}
+
+.persons-list li {
+  margin-right: 24px;
+}
+
+.persons-list li:last-child {
+  margin-right: 0;
+}
+
+.persons-element {
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .person-title {
