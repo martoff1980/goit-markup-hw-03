@@ -180,8 +180,8 @@ a {
 }
 
 .discription-items {
-  width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .discription-title {
@@ -235,7 +235,7 @@ a {
   background-color: #ffffff;
 }
 
-.test-a {
+.test-abcd {
   padding: 32px 0 32px;
 }
 
