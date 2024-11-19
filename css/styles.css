@@ -33,7 +33,7 @@ ul {
   display: flex;
 }
 
-.header-container .container {
+.header-container.container {
   padding: 0 15px 0 15px;
 }
 
@@ -152,7 +152,8 @@ a {
 .discription {
   padding: 120px 0 120px;
 }
-.visually-hidden {
+
+.container .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
