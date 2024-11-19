@@ -33,7 +33,7 @@ ul {
   display: flex;
 }
 
-.header-container.container {
+.header-container .container {
   padding: 0 15px 0 15px;
 }
 
@@ -63,6 +63,7 @@ ul {
 }
 
 .header-nav .header-link {
+  padding: 24px 0 24px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
