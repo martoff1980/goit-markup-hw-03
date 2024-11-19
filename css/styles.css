@@ -38,6 +38,11 @@ ul {
   align-items: center;
 }
 
+.neader-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav .header-logo {
   margin-right: 76px;
   text-transform: uppercase;
