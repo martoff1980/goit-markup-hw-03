@@ -8,17 +8,6 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-}
-
 img {
   display: block;
 }
@@ -233,9 +222,9 @@ a {
 }
 
 .persons {
-  /* width: calc((100% - 3 * 24px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px; */
+  /* width: calc((100% - 3 * 24px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
