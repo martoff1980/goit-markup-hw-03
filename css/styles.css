@@ -15,7 +15,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 156px;
+  /*padding: 0 156px;*/
 }
 
 .header-panel {
@@ -221,8 +221,8 @@ a {
 
 .persons {
   /* width: calc((100% - 3 * 24px) / 4); */
-  /* flex-basis: calc((100% - 3 * 24px) / 4); */
-  /* border-radius: 0px 0px 4px 4px; */
+  flex-basis: calc((100% - 3 * 24px) / 4); 
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
