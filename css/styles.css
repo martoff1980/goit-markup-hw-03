@@ -271,16 +271,16 @@ a {
   row-gap: 48px;
 }
 
-.portfolio-list li {
+/* .portfolio-list li {
   margin-right: 24px;
 }
 
 .portfolio-list li:last-child {
   margin-right: 0;
-}
+} */
 
 .portfolio-items {
-  width: 370px; /*calc((100% - 2 * 24px) / 3);*/
+  width: 356px; /*calc((100% - 2 * 24px) / 3);*/
 }
 
 .portfolio-center {
