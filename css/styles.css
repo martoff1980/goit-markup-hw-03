@@ -280,7 +280,7 @@ a {
 } */
 
 .portfolio-items {
-  width: 356px; /*calc((100% - 2 * 24px) / 3);*/
+  width: 370px; /*calc((100% - 2 * 24px) / 3);*/
 }
 
 .portfolio-center {
