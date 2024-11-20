@@ -160,7 +160,7 @@ a {
 
 .discription-list {
   display: flex;
-  gap: 24px;
+  /*gap: 24px;*/
 }
 
 .discription-list li {
