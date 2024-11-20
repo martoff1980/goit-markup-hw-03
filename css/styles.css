@@ -227,6 +227,10 @@ a {
   background-color: #ffffff;
 }
 
+.test {
+  padding: 32px 0 32px;
+}
+
 /* .person-center {
   padding: 32px 0 32px;
 } */
