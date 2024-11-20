@@ -75,8 +75,6 @@ img {
 
 .header-address ul {
   display: flex;
-  padding-left: 500px;
-  margin-top: -25px;
   gap: 40px;
 }
 
