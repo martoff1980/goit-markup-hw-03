@@ -172,7 +172,7 @@ a {
 }
 
 .discription-items {
-  width: calc((100% - 3 * 24px) / 4);
+  width: 272px; /*calc((100% - 3 * 24px) / 4);*/
   /* flex-basis: calc((100% - 3 * 24px) / 4); */
 }
 
