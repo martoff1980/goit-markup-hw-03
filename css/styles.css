@@ -209,16 +209,16 @@ a {
 
 .persons-list {
   display: flex;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
-.persons-list li {
+/* .persons-list li {
   margin-right: 24px;
 }
 
 .persons-list li:last-child {
   margin-right: 0;
-}
+} */
 
 .persons {
   /* width: calc((100% - 3 * 24px) / 4); */
@@ -227,13 +227,9 @@ a {
   background-color: #ffffff;
 }
 
-.test {
+.person-center {
   padding: 32px 0 32px;
 }
-
-/* .person-center {
-  padding: 32px 0 32px;
-} */
 
 .person-title {
   margin-bottom: 8px;
