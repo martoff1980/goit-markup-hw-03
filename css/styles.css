@@ -172,7 +172,6 @@ a {
 } */
 
 .discription-items {
-  /*width: 272px; calc((100% - 3 * 24px) / 4);*/
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px;*/
 }
 
@@ -221,7 +220,6 @@ a {
 } */
 
 .persons {
-  /* width: calc((100% - 3 * 24px) / 4); */
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
