@@ -171,7 +171,8 @@ a {
   margin-right: 0;
 } */
 
-.discription-items {
+.discription-items,
+.persons {
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px;*/
 }
 
@@ -220,7 +221,7 @@ a {
 } */
 
 .persons {
-  flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
+  /*flex-basis: calc((100% - 3 * 24px) / 4);*/ /* 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
