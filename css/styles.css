@@ -204,7 +204,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #969bf7;
+  color: #2e2f42;
 }
 
 .persons-list {
@@ -213,21 +213,13 @@ a {
   gap: 24px;
 }
 
-/* .persons-list li {
-  margin-right: 24px;
-}
-
-.persons-list li:last-child {
-  margin-right: 0;
-} */
-
 .persons {
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
-.person-center {
+.persons.person-center {
   padding: 32px 0 32px;
 }
 
@@ -271,14 +263,6 @@ a {
   row-gap: 48px;
   margin-left: -40px;
 }
-
-/* .portfolio-list li {
-  margin-right: 24px;
-}
-
-.portfolio-list li:last-child {
-  margin-right: 0;
-} */
 
 .portfolio-items {
   width: calc((100% - 2 * 24px) / 3); /*370px; */
