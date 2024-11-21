@@ -16,7 +16,6 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  /*padding: 0 156px;*/
 }
 
 .header-panel {
@@ -173,6 +172,7 @@ a {
 } */
 
 .discription-items {
+  width: calc((100% - 3 * 24px) / 4);
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px;*/
 }
 
@@ -214,12 +214,13 @@ a {
 }
 
 .persons {
+  width: calc((100% - 3 * 24px) / 4);
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
-.persons.person-center {
+.person-center {
   padding: 32px 0 32px;
 }
 
@@ -265,7 +266,8 @@ a {
 }
 
 .portfolio-items {
-  width: calc((100% - 2 * 24px) / 3); /*370px; */
+  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 2 * 24px) / 3); /*370px; */
 }
 
 .portfolio-center {
