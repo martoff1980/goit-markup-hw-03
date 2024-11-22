@@ -1,7 +1,6 @@
 /** @format */
 
 body {
-  width: 1440px;
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -159,13 +158,12 @@ a {
 
 .discription-list {
   display: flex;
-  margin-left: -40px;
   gap: 24px;
 }
 
 .discription-items {
   width: calc((100% - 3 * 24px) / 4);
-  /* flex-basis: calc((100% - 3 * 24px) / 4); 272px; */
+  /* flex-basis: calc((100% - 3 * 24px) / 4); */
 }
 
 .discription-title {
@@ -201,13 +199,12 @@ a {
 
 .persons-list {
   display: flex;
-  margin-left: -40px;
   gap: 24px;
 }
 
 .persons {
   width: calc((100% - 3 * 24px) / 4);
-  /* flex-basis: calc((100% - 3 * 24px) / 4); 272px; */
+  /* flex-basis: calc((100% - 3 * 24px) / 4); */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -254,12 +251,11 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-left: -40px;
 }
 
 .portfolio-items {
   width: calc((100% - 2 * 24px) / 3);
-  /* flex-basis: calc((100% - 2 * 24px) / 3); */ /*272px*/
+  /* flex-basis: calc((100% - 2 * 24px) / 3); */
 }
 
 .portfolio-center {
