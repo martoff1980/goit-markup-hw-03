@@ -172,7 +172,7 @@ a {
 } */
 
 .discription-items {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px;*/
 }
 
@@ -214,7 +214,7 @@ a {
 }
 
 .persons {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
   flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
@@ -266,14 +266,14 @@ a {
 }
 
 .portfolio-items {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
   flex-basis: calc((100% - 2 * 24px) / 3); /*370px; */
 }
 
 .portfolio-center {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-content {
