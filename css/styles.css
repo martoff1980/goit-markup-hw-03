@@ -133,6 +133,8 @@ button {
 ol,
 ul {
   list-style: none;
+  margin: 0;
+  padding-right: 0;
 }
 
 a {
