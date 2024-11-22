@@ -134,7 +134,7 @@ ol,
 ul {
   list-style: none;
   margin: 0;
-  padding-right: 0;
+  padding-left: 0;
 }
 
 a {
@@ -164,8 +164,8 @@ a {
 }
 
 .discription-items {
-  width: calc((100% - 3 * 24px) / 4);
-  /* flex-basis: calc((100% - 3 * 24px) / 4); */
+  /* width: calc((100% - 3 * 24px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .discription-title {
@@ -205,8 +205,8 @@ a {
 }
 
 .persons {
-  width: calc((100% - 3 * 24px) / 4);
-  /* flex-basis: calc((100% - 3 * 24px) / 4); */
+  /* width: calc((100% - 3 * 24px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -256,8 +256,8 @@ a {
 }
 
 .portfolio-items {
-  width: calc((100% - 2 * 24px) / 3);
-  /* flex-basis: calc((100% - 2 * 24px) / 3); */
+  /* width: calc((100% - 2 * 24px) / 3); */
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-center {
