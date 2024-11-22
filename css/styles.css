@@ -163,17 +163,9 @@ a {
   gap: 24px;
 }
 
-/* .discription-list li {
-  margin-right: 24px;
-}
-
-.discription-list li:last-child {
-  margin-right: 0;
-} */
-
 .discription-items {
-  /* width: calc((100% - 3 * 24px) / 4); */
-  flex-basis: calc((100% - 3 * 24px) / 4); /* 272px;*/
+  width: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 3 * 24px) / 4); 272px; */
 }
 
 .discription-title {
@@ -214,8 +206,8 @@ a {
 }
 
 .persons {
-  /* width: calc((100% - 3 * 24px) / 4); */
-  flex-basis: calc((100% - 3 * 24px) / 4); /* 272px; */
+  width: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 3 * 24px) / 4); 272px; */
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -266,8 +258,8 @@ a {
 }
 
 .portfolio-items {
-  /* width: calc((100% - 3 * 24px) / 4); */
-  flex-basis: calc((100% - 2 * 24px) / 3); /*370px; */
+  width: calc((100% - 2 * 24px) / 3);
+  /* flex-basis: calc((100% - 2 * 24px) / 3); */ /*272px*/
 }
 
 .portfolio-center {
