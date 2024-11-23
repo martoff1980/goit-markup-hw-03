@@ -25,6 +25,7 @@ img {
 .container {
 	width: 1158px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .header-panel {
@@ -80,7 +81,7 @@ img {
 }
 
 .header-address {
-	display: block;
+	margin-left: auto;
 	font-style: normal;
 }
 
@@ -90,6 +91,8 @@ img {
 }
 
 .header-contacts {
+	display: block;
+	padding: 24px 0 24px;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -107,6 +110,9 @@ img {
 }
 
 .hero-title {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 48px;
 	max-width: 496px;
 	font-size: 56px;
 	line-height: 1.07;
@@ -117,7 +123,7 @@ img {
 
 .hero-button {
 	display: block;
-	margin: 0, auto;
+	margin: 0 auto;
 	min-width: 169px;
 	height: 56px;
 	border: none;
