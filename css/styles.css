@@ -66,6 +66,7 @@ img {
 }
 
 .header-nav .header-link {
+	display: block;
 	padding: 24px 0 24px;
 	font-weight: 500;
 	font-size: 16px;
@@ -80,6 +81,7 @@ img {
 }
 
 .header-address {
+	display: block;
 	font-style: normal;
 }
 
