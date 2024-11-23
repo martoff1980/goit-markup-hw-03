@@ -117,7 +117,7 @@ img {
 
 .hero-button {
 	display: block;
-	margin: 10px;
+	margin: 0, auto;
 	min-width: 169px;
 	height: 56px;
 	border: none;
